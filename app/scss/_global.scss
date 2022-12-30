@@ -1,0 +1,47 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+}
+
+a
+{
+    text-decoration: none;
+    color: inherit;
+}
+
+p,h1,h2,h3,h4,h5,h6 
+{
+    color: inherit;
+}
+
+img 
+{
+    -webkit-user-drag: none;
+}
+
+html 
+{
+    scroll-behavior: smooth;
+}
+
+body 
+{
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    background-color: var(--white);
+}
+
+body::-webkit-scrollbar {
+    width: 13px;
+    background-color: var(--white);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-clip: content-box;
+    border: 3px solid transparent;
+    border-radius: 8px;
+    background-color: var(--gray-blue);
+}
